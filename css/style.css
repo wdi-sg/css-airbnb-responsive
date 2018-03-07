@@ -1,0 +1,75 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #57595c;
+  background-color: #edefec;
+}
+button {
+  text-align: center;
+  width: 175px;
+  background: white;
+  border: 1px solid #cfcfcf;
+  border-radius: 3px;
+  color: #57595c;
+  font-size: 0.8em;
+  font-weight: 500;
+  padding: 5px 0;
+  margin: 0 0 18px 0;
+}
+button:hover {
+  background: #eeeeee;
+  border: 1px solid grey;
+}
+h3 {
+  font-weight: bold;
+}
+p {
+  font-size: 0.8em;
+  font-weight: 600;
+  margin: -13px auto 25px auto;
+}
+span {
+  position: relative;
+  top: 46%;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.wrapper {
+  margin: 40px auto;
+  width: 750px;
+  /*border: 1px black solid;*/
+  text-align: center;
+}
+.grid {
+  /*border: 1px black dashed;*/
+  height: 200px;
+  margin: 0 0 30px 0;
+}
+.box {
+  width: 25%;
+  display: inline-block;
+  margin:0 5px 0 5px;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  position: relative;
+}
+#box1 {
+  background-image: url("../img/san-francisco.jpg");
+}
+#box2 {
+  background-image: url("../img/new-york.jpg");
+}
+#box3 {
+  background-image: url("../img/london.jpg");
+}
+#box4 {
+  background-image: url("../img/napa.jpg");
+}
+#box5 {
+  background-image: url("../img/sonoma.jpg");
+}
+#box6 {
+  background-image: url("../img/san-francisco-2.jpg");
+}
