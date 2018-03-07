@@ -13,7 +13,7 @@ This time, we'll build a "mobile-first" version of our Airbnb mockup.
 * Use media queries to make the webpage appear like the screenshot on desktop clients.
 * Think about the minimal number of steps you need to achieve this:
   * Which specific CSS declarations need to be changed when viewed on a desktop?
-  * What additional HTML elements might you need to add?
+  * What additional HTML elements might you need to add? (Sometimes you don't need to add any HTML at all to go from mobile -> desktop)
 
 ## Deliverable
 
