@@ -65,3 +65,20 @@ span {
 #box6 {
   background-image: url("../img/san-francisco-2.jpg");
 }
+
+@media (min-width: 1224px) {
+  button {
+    width: 18%;
+  }
+  span {
+    font-size: 20px;
+  }
+  .box {
+    display: inline-block;
+    height: 30vh;
+    width: 20%;
+  }
+  .buttonBox {
+    display: block;
+  }
+}
