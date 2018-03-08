@@ -40,7 +40,7 @@ span {
   text-align: center;
 }
 .grid {
-  height: 200px;
+  height: 500px;
   margin: 0 0 30px 0;
 }
 .box {
@@ -69,3 +69,27 @@ span {
 #box6 {
   background-image: url("../img/san-francisco-2.jpg");
 }
+
+/*need to change the size of the images and display them inline.
+Can't use inline as it does not allow us to determine the height and width.
+
+*/
+
+@media (min-width: 800px) {
+    .box {
+      display: inline-block;
+      width: 250px;
+      height: 250px;
+      margin: 0 15px 1.5em 10px;
+    }
+
+    button {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+  }
+
+}
+  
+   
+
