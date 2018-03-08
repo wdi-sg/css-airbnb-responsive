@@ -2,18 +2,18 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #57595c;
   background-color: #edefec;
+  text-align: center;
 }
 button {
   text-align: center;
-  width: 100%;
   background: white;
   border: 1px solid #cfcfcf;
   border-radius: 3px;
   color: #57595c;
   font-size: 0.8em;
   font-weight: 500;
-  padding: 5px 0;
-  margin: 0 0 18px 0;
+  padding: 5px 50px;
+  margin: 30px 0 18px 0;
 }
 button:hover {
   background: #eeeeee;
@@ -36,21 +36,31 @@ span {
 }
 
 .wrapper {
-  width: 100%;
+  width: 900px;
   text-align: center;
+  margin: auto;
 }
+
 .grid {
   height: 200px;
   margin: 0 0 30px 0;
 }
 .box {
-  width: 100%;
-  margin: 0 auto 1.5em auto;
+  width: 32%;
+  height: 300px;
   background-size: cover;
   background-position: center;
-  height: 20vh;
   position: relative;
+  float:left;
+  margin-right: 1%;
+
 }
+
+.box:last-child {
+ margin-right: 0px;
+}
+
+
 #box1 {
   background-image: url("../img/san-francisco.jpg");
 }
@@ -68,4 +78,23 @@ span {
 }
 #box6 {
   background-image: url("../img/san-francisco-2.jpg");
+}
+
+@media screen and (max-width: 900px) {
+  button {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .box {
+    width: 100%;
+    height: 20vh;
+    margin: 0 auto 1.5em auto;
+
+  }
+
+  .wrapper {
+    max-width: 100%;
+  }
+
 }
