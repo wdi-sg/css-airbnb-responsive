@@ -19,14 +19,17 @@ button:hover {
   background: #eeeeee;
   border: 1px solid grey;
 }
+
 h3 {
   font-weight: bold;
 }
+
 p {
   font-size: 0.8em;
   font-weight: 600;
   margin: -13px auto 25px auto;
 }
+
 span {
   position: relative;
   top: 46%;
@@ -68,4 +71,36 @@ span {
 }
 #box6 {
   background-image: url("../img/san-francisco-2.jpg");
+}
+
+a {
+  text-decoration: none;
+}
+
+/*wide screens*/
+@media (min-width: 600px) {
+  .pic-container {
+    width: 70vw;
+    margin: auto;
+  }
+  .box {
+    width: 30%;
+    height: 55vh;
+    display: inline-block;
+    margin-left: 1rem;
+    margin-right: 1reml;
+  }
+
+  button {
+    width: 15vw;
+  }
+
+  .footer {
+    margin: 5rem auto 1rem auto;
+    width: 60vw;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
 }
