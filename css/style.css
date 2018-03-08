@@ -40,8 +40,7 @@ span {
   text-align: center;
 }
 .grid {
-  height: 200px;
-  margin: 0 0 30px 0;
+  width: 100%;
 }
 .box {
   width: 100%;
@@ -50,7 +49,9 @@ span {
   background-position: center;
   height: 20vh;
   position: relative;
+  display: inline-block;
 }
+
 #box1 {
   background-image: url("../img/san-francisco.jpg");
 }
@@ -59,6 +60,7 @@ span {
 }
 #box3 {
   background-image: url("../img/london.jpg");
+  position: block;
 }
 #box4 {
   background-image: url("../img/napa.jpg");
@@ -68,4 +70,28 @@ span {
 }
 #box6 {
   background-image: url("../img/san-francisco-2.jpg");
+}
+
+@media (min-width: 600px) {
+  button {
+    width: 175px;
+  }
+  .wrapper {
+    margin: 40px auto;
+    width: 750px;
+    text-align: center;
+  }
+  .box {
+    width: 25%;
+    display: inline-block;
+    margin:0 5px 0 5px;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    position: relative;
+  }
+  .grid {
+    height: 200px;
+    margin: 0 0 30px 0;
+  }
 }
