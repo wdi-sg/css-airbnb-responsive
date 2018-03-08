@@ -74,6 +74,9 @@ span {
   button {
     width: 18%;
   }
+  span {
+    font-size: 20px;
+  }
   .box {
     display: inline-block;
     height: 30vh;
