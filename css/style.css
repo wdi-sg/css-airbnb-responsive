@@ -65,3 +65,33 @@ span {
 #box6 {
   background-image: url("../img/san-francisco-2.jpg");
 }
+
+@media (min-width: 900px) {
+  body {
+    padding: 10px 20% 0 20%;
+  }
+
+  .row, .img-row {
+    width: 750px;
+    margin: 0 auto;
+  }
+
+  .img-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .box {
+    display: 'block';
+    box-sizing: border-box;
+    flex: 1 1 auto;
+    margin: 20px;
+    max-width: 200px;
+    height: 200px;
+  }
+
+  button {
+    width: 25%;
+  }
+
+}
