@@ -3,65 +3,89 @@ body {
   color: #57595c;
   background-color: #edefec;
 }
-button {
-  text-align: center;
-  width: 100%;
-  background: white;
-  border: 1px solid #cfcfcf;
-  border-radius: 3px;
-  color: #57595c;
-  font-size: 0.8em;
-  font-weight: 500;
-  padding: 5px 0;
-  margin: 0 0 18px 0;
-}
-button:hover {
-  background: #eeeeee;
-  border: 1px solid grey;
-}
-h3 {
+
+h1 {
+  font-size: 1.5em;
   font-weight: bold;
-}
-p {
-  font-size: 0.8em;
-  font-weight: 600;
-  margin: -13px auto 25px auto;
-}
-span {
-  position: relative;
-  top: 46%;
-  color: white;
-  font-weight: bold;
-  letter-spacing: 1px;
+  margin: 0;
 }
 
-.wrapper {
-  width: 100%;
+.subtitle {
+  font-size: 0.75em;
+  color: gray;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.title {
   text-align: center;
+  height: 4em;
+  padding-top: 2em;
 }
-.box {
+
+.location {
   width: 100%;
-  margin: 0 auto 1.5em auto;
-  background-size: cover;
+  height: 200px;
   background-position: center;
-  height: 20vh;
+  background-size: cover;
+  text-align: center;
+  margin: 1em 0.5em;
+}
+
+.location-name {
+  color: white;
+  display: block;
   position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 1.5em;
 }
-#box1 {
-  background-image: url("../img/san-francisco.jpg");
+
+.more-content {
+  padding: 10px 0 10px 0;
 }
-#box2 {
-  background-image: url("../img/new-york.jpg");
+
+.btn-further {
+  border: 1px solid gray;
+  border-radius: 3px;
+  text-align: center;
+  padding: 4px;
+  width: 250px;
+  background-color: white;
+  margin: 0 auto;
+  cursor: pointer;
+  font-size: 0.8em;
 }
-#box3 {
-  background-image: url("../img/london.jpg");
+
+.btn-further:hover {
+  background-color: #eeeeee;
 }
-#box4 {
-  background-image: url("../img/napa.jpg");
+
+#SF {
+  background-image: url('../img/san-francisco.jpg');
 }
-#box5 {
-  background-image: url("../img/sonoma.jpg");
+
+#NY {
+  background-image: url('../img/new-york.jpg');
 }
-#box6 {
-  background-image: url("../img/san-francisco-2.jpg");
+
+#London {
+  background-image: url('../img/london.jpg');
+}
+
+#Napa {
+  background-image: url('../img/napa.jpg');
+}
+
+#Sonoma {
+  background-image: url('../img/sonoma.jpg');
+}
+
+#SF2 {
+  background-image: url('../img/san-francisco-2.jpg');
 }
