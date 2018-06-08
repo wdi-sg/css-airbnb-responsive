@@ -26,9 +26,15 @@ h1 {
   padding-top: 2em;
 }
 
+.location-section {
+  display: flex;
+  justify-content: center
+}
+
 .location {
-  width: 100%;
+  width: 200px;
   height: 200px;
+  float: left;
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -46,8 +52,13 @@ h1 {
   font-size: 1.5em;
 }
 
+.location:hover {
+  opacity: 0.8;
+}
+
 .more-content {
   padding: 10px 0 10px 0;
+  clear: left;
 }
 
 .btn-further {
@@ -88,4 +99,16 @@ h1 {
 
 #SF2 {
   background-image: url('../img/san-francisco-2.jpg');
+}
+
+/*for 600px and below*/
+@media only screen and (max-width: 600px) {
+  .location-section {
+     /*For vertical placement of items*/
+    flex-direction: column;
+  }
+  .location {
+    width: 100%;
+    order: 2;
+  }
 }
