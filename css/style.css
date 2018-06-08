@@ -15,10 +15,10 @@ h1 {
   color: gray;
 }
 
-.container {
+/*.container {
   width: 85%;
   margin: 0 auto;
-}
+}*/
 
 .title {
   text-align: center;
@@ -33,6 +33,7 @@ h1 {
   background-size: cover;
   text-align: center;
   margin: 1em 0.5em;
+  cursor: pointer;
 }
 
 .location-name {
