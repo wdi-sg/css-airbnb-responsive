@@ -1,3 +1,7 @@
+div {
+  /*border: 1px solid black;*/
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #57595c;
@@ -88,4 +92,25 @@ h1 {
 
 #SF2 {
   background-image: url('../img/san-francisco-2.jpg');
+}
+
+@media (min-width: 1300px) {
+  .title p {
+    line-height: 0.1;
+  }
+  .section {
+    text-align: center;
+  }
+  .location {
+    display: inline-block;
+    width: 20%;
+    height: 250px;
+    margin: 0 0.5em;
+  }
+  .more-content {
+    padding: 20px 0 0 0;
+  }
+  .btn-further {
+    width: 20%;
+  }
 }
